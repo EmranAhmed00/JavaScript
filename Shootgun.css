@@ -1,0 +1,90 @@
+
+#container {
+  height: 450px;
+  width: 900px;
+  border: 5px solid rgba(143, 201, 151, 0.699);
+  margin: 0 auto;
+  color: brown;
+  margin-top: 50px;
+  position: relative;
+ 
+}
+
+ #Reload {
+  font-size: 30px;
+  /* color: darkviolet; */
+}
+
+
+#Block {
+  font-size: 30px;
+  /* color: #ab631a; */
+} 
+
+#Shoot {
+    font-size: 30px;
+    
+  }
+
+  #Reset {
+    font-size: 30px;
+    color: #da345d;
+    
+  }
+
+  #Reset:hover{
+    background: darkgray;
+    color:rgb(20, 255, 255);
+  }
+/* button:hover{
+    background:  #95b199;
+    color:rgb(20, 255, 255);
+  }
+   */
+
+.btn-container {
+  padding-top: 10px;
+}
+
+.opts-icon {
+  display: none;
+ 
+}
+
+.opts-icon{
+    font-size: 30px;        /***/
+    color: #da345d;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 10px;
+  font-size: 50px;
+    color: #da345d;
+}
+
+.reset-container {
+  display: none;
+}
+
+.Winner{
+  text-align: center;
+  font-size: 30px;
+  color:blue;
+  
+  background-color: blanchedalmond;
+  margin:40px;
+}
+
+.PlayerBullets{
+    font-size: 50px;
+}
+
+body{
+    background-image: url("Picture/Terminator.jpg");
+    
+  
+}

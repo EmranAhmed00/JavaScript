@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" defer></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
+
+
+    <link href="Shootgun.css" rel="stylesheet" />
+  </head>
+  
+  <body>
+    <div id="container">
+      <div class="PlayerBullets text-center">Bullets: 0</div>
+      <div class='btn-container row justify-content-center'>
+        <div class='btn col-2'>
+          <button class='opts-btn' id="Block"><i class="fas fa-user-lock">Block</i></button>
+        </div>
+        <div class='btn col-2'>
+          <button class='opts-btn' id="Reload"><i class="fas fa-sync ">Reload</i></button>
+        </div>
+        <div class='btn col-2'>
+          <button class='opts-btn' id="Shoot"> <i class="shoot-icon fas fa-fighter-jet">Shoot</i></button>
+        </div>
+        <div class='reset-container col-2'>
+          <button id ="Reset" class="btn btn-info btn-md">Reset</button>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class='col-3 text-center'><i class="opts-icon fas pt-3"></i></div>
+      </div>
+      <div class='bottom'>
+        <i class="opts-icon-computer fas pt-3"></i>
+        <div class="ComputerBullets">
+          Bullets: 0
+        </div>
+      </div>
+    </div>
+    <div class="Winner" ><p class="WinnerText"> </p></div>
+    <br/><br/><br/><br/>
+
+    <script src = "Shotgun.js" defer></script>
+  </body>
+</html>
